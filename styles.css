@@ -1,0 +1,129 @@
+#navbar{
+    background-color: #8b5cf6;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.logoPM{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-style: normal; 
+    color: white;
+
+}
+
+#pm{
+    font-size: 44px;
+}
+
+.menuNavegacion{
+    background-color: #b395fa54;
+    color: white;
+}
+
+.navegacionMobile{
+    background-color: #b395fa54;
+    color: white;
+    max-width: 70%;
+    margin-right: 0px;
+}
+
+.menuHover:hover{
+    background-color: #8b5cf6;
+}   
+
+.buttonContactanos{
+    background-color:  #381193;
+}
+
+.carousel-container {
+    position: absolute;
+    bottom: -620px;
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semi-transparente */
+    z-index: 10;
+    max-width: 100%; 
+    overflow-x: auto; 
+}
+
+.relative-container {
+    position: relative;
+    z-index: 1; /* Asegura que esté por debajo del carrusel */
+}
+
+#buttonCarrusel{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-style: normal; 
+    background-color: #381193;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+
+.carousel-item {
+    max-width: 400px; /* Ajusta el ancho máximo según sea necesario */
+    width: 100%; /* Para asegurar que cada elemento del carrusel tenga el mismo ancho */
+    display: inline-block; /* Para que los elementos del carrusel se muestren en línea */
+    margin-right: 1rem; /* Espacio entre elementos del carrusel */
+}
+
+.peluqueria{
+    background-color: #8b5cf6;
+    margin-top: 620px;
+    padding: 30px;
+}
+
+.tituloPeluqueria {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white; /* Color de texto personalizado */
+    margin-bottom: 1.5rem; /* Espaciado inferior personalizado */
+}
+
+.peluqueria img{
+    margin-top: 0;
+    max-width: 650px;
+}
+
+.sobreNosotros{
+    color: white;
+    min-height: 700px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+}
+
+.sobreNosotros h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white; /* Color de texto personalizado */
+    margin-bottom: 1.5rem; /* Espaciado inferior personalizado */
+}
+
+.sobreNosotros p{
+    margin-bottom: 50px;
+}
+
+.botonEnviar{
+    background-color:  #381193  ;
+}
+
+
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.caveat-<uniquifier> {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
